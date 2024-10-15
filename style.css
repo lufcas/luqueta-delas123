@@ -6,11 +6,17 @@ header {
     justify-content: center;
 }
 
-ul {
+.nav lista {
     display: flex;
     list-style: none;
     font-size: 40px;
     color: aquamarine;
     gap: 28px;
     text-transform: uppercase;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: aquamarine;
 }
